@@ -22,14 +22,12 @@ public class HelloWorldController {
 	}
 
 	@GetMapping("/objetivos")
-	public ArrayList objetivos() {
-		ArrayList<String> objetivos = new ArrayList<String> ();
-		
+	public ArrayList<String> objetivos() {
+		ArrayList<String> objetivos = new ArrayList<String>();
 		objetivos.add("Rever conceito de Collections");
 		objetivos.add("Fazer exercícios sobre Collections");
 		objetivos.add("Ter mentoria de carreira com Pri");
 		objetivos.add("Concluir lições e ficar em dia com entregas");
-	
 		return objetivos;
 	}
 
